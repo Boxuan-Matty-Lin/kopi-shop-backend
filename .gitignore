@@ -1,0 +1,57 @@
+# -------------------------
+# Python / uv / virtualenv
+# -------------------------
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# -------------------------
+# FastAPI / general
+# -------------------------
+*.log
+logs/
+*.sqlite3
+*.db
+
+# -------------------------
+# Environment / secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Build / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# -------------------------
+# IDE / OS
+# -------------------------
+.vscode/
+.idea/
+.DS_Store
+.history
+Thumbs.db
+
+# -------------------------
+# Optional: type check / tooling
+# -------------------------
+.pyright/
